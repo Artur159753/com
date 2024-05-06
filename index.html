@@ -9,13 +9,29 @@
 <body>
     <header>
         <div class="container">
-            <h1>YouTube Clone</h1>
+            <h1>YouTube</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Поиск">
+                <button>Поиск</button>
+            </div>
         </div>
     </header>
     <main>
         <div class="container">
             <div class="video-wrapper">
-                <video tabindex="-1" class="video-stream html5-main-video" controlslist="nodownload" style="left: 0px; top: 71px; width: 596px; height: 335px;" src="blob:https://www.youtube.com/9015cb9f-5dbf-4d3e-94ae-3c9dd6a53d63"></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X6oLpVDRA54" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h2>Название видео</h2>
+                <p>Автор видео</p>
+                <p>100500 просмотров • 10 мая 2024 г.</p>
+                <div class="fake-buttons">
+                    <button>👍 1000</button>
+                    <button>👎 20</button>
+                    <button>Поделиться</button>
+                    <button>Сохранить</button>
+                    <button>Подписаться</button>
+                </div>
             </div>
         </div>
     </main>

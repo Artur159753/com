@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #181818; /* Цвет фона */
+    color: #fff;
 }
 
 .container {
@@ -10,10 +12,30 @@ body {
 }
 
 header {
-    background-color: #f00; /* Цвет заголовка */
-    color: #fff;
+    background-color: #212121; /* Цвет шапки */
     padding: 10px 0;
-    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 70%;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
 
 main {
@@ -24,6 +46,7 @@ main {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 соотношение сторон для видео */
     height: 0;
+    margin-bottom: 20px;
 }
 
 .video-wrapper iframe {
@@ -34,8 +57,31 @@ main {
     height: 100%;
 }
 
+.video-info {
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.video-info h2 {
+    margin-top: 0;
+}
+
+.fake-buttons {
+    margin-top: 10px;
+}
+
+.fake-buttons button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
 footer {
-    background-color: #f00; /* Цвет подвала */
+    background-color: #212121; /* Цвет подвала */
     color: #fff;
     text-align: center;
     padding: 10px 0;
